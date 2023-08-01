@@ -8,7 +8,7 @@ drop table if exists iot_temp;
 create table iot_temp
 ( id VARCHAR(255),
   room_id VARCHAR(255),
-  noted_date DATETIME,
+  noted_date VARCHAR(255),
   temp INT,
   location VARCHAR(10)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
