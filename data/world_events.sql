@@ -1,3 +1,4 @@
+DROP SCHEMA IF EXISTS world_events;
 CREATE SCHEMA world_events;
 
 USE world_events;
